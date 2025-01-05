@@ -34,6 +34,7 @@ console.log("Request received:", req.body);
       }
     );
 
+    console.log('hello ..')
     res.status(200).json({ result: response.data });
   } catch (error) {
     console.error("Error with Pixelcut API:", error.message);
